@@ -1,0 +1,427 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://federica2023.github.io/MaurizioCattelan/manifests/CattelanManifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Maurizio Cattelan is an Italian artist known for his provocative and unconventional artworks that challenge traditional ideas of art. His works often employ humor and satire to provoke thought and challenge societal norms. Cattelan's art is characterized by its irreverent approach and ability to spark controversy and discussion.",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Federica Grenzi",
+  "sequences" : [ {
+    "@id" : "http://ee1ad7ee-4136-44ac-94ed-d8816e9a7a95",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://51b8f556-662b-4fe9-a94c-7dc34172bf55",
+      "@type" : "sc:Canvas",
+      "label" : "1_Cattelan's Artwork",
+      "height" : 1440,
+      "width" : 1163,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://326f094b-be89-436d-8b12-a7312e8981c8",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/cattelan2000.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/cattelan2000.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 1674720,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 1440,
+          "width" : 1163
+        },
+        "on" : "http://51b8f556-662b-4fe9-a94c-7dc34172bf55"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Title",
+        "value" : "Untitled (for Parkett no. 59)"
+      }, {
+        "label" : "Creator",
+        "value" : "Maurizio Cattelan"
+      }, {
+        "label" : "Subject",
+        "value" : "gelatine silver prints; Black-and-white photograph; limited editions; contemporary art"
+      }, {
+        "label" : "Description",
+        "value" : "“Cattelan, for his part, directs the forms he manipulates towards conflict and comedy; through works of the most embarrassing, constraining and cumbersome sort he seeks conflicts with the administrators of the art system. In a word, his conduct as an artist consists of orienting the forms he manipulates towards delinquency.” "
+      }, {
+        "label" : "Publisher",
+        "value" : "MoMA"
+      }, {
+        "label" : "Date Created",
+        "value" : "2000"
+      }, {
+        "label" : "Type",
+        "value" : "Image"
+      }, {
+        "label" : "Extent",
+        "value" : "30.5 x 24.1 cm"
+      }, {
+        "label" : "Identifier",
+        "value" : "1128.2001"
+      }, {
+        "label" : "Source",
+        "value" : "https://www.moma.org/collection/works/75735"
+      }, {
+        "label" : "Is part Of",
+        "value" : "Parkett magazine issue number 59"
+      }, {
+        "label" : "Rights",
+        "value" : "2023 Maurizio Cattelan"
+      }, {
+        "label" : "License",
+        "value" : "Art Resource; Scala Archives"
+      } ]
+    }, {
+      "@id" : "http://ce7bb400-240d-48f8-9a21-1031a3a26385",
+      "@type" : "sc:Canvas",
+      "label" : "2_Cattelan's Artwork",
+      "height" : 864,
+      "width" : 864,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://a77ccacd-6e12-419d-b84c-33df441743c4",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/yes.png/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/yes.png",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 746496,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 864,
+          "width" : 864
+        },
+        "on" : "http://ce7bb400-240d-48f8-9a21-1031a3a26385"
+      } ],
+      "metadata" : [ {
+        "label" : "Title",
+        "value" : "Yes!"
+      }, {
+        "label" : "Creator",
+        "value" : "Maurizio Cattelan"
+      }, {
+        "label" : "Subject",
+        "value" : "limited editions; architects' lamp; contemporary art"
+      }, {
+        "label" : "Description",
+        "value" : "It is called Yes! and it is a light bulb, the new work by Maurizio Cattelan (Padua, 1960): the peculiarity is that the light bulb has the artist’s features, and so it is really the case that now Cattelan’s genius will illuminate anyone who buys this object. The LED bulb comes in two versions, 110 volts for the U.S. market and 220 for the European market."
+      }, {
+        "label" : "Publisher",
+        "value" : "MoMA"
+      }, {
+        "label" : "Date Created",
+        "value" : "2019"
+      }, {
+        "label" : "Type",
+        "value" : "PhysicalObject"
+      }, {
+        "label" : "Format",
+        "value" : "17.8 × 12.7 × 9.5 cm"
+      }, {
+        "label" : "Medium",
+        "value" : "Porcelain and LED lightbulb"
+      }, {
+        "label" : "Identifier",
+        "value" : "85.2020"
+      }, {
+        "label" : "Source",
+        "value" : "https://www.moma.org/collection/works/409624"
+      }, {
+        "label" : "Rights",
+        "value" : "2023 Maurizio Cattelan"
+      }, {
+        "label" : "License",
+        "value" : "Art Resource; Scala Archives"
+      } ]
+    }, {
+      "@id" : "http://ae3dd812-2432-4e5e-87b9-fa2b1afa74fa",
+      "@type" : "sc:Canvas",
+      "label" : "3_Cattelan's Artwork",
+      "height" : 2362,
+      "width" : 1575,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://caba37be-967a-4ae6-b209-42fab32b8e8a",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/charlie.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/charlie.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 3720150,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 2362,
+          "width" : 1575
+        },
+        "on" : "http://ae3dd812-2432-4e5e-87b9-fa2b1afa74fa"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Title",
+        "value" : "Charlie don’t surf "
+      }, {
+        "label" : "Creator",
+        "value" : "Maurizio Cattelan"
+      }, {
+        "label" : "Subject",
+        "value" : "contemporary art; child's chairs; campaign desk; assemblage (sculpture)"
+      }, {
+        "label" : "Description",
+        "value" : "The work, which shows the mannequin of a student sitting at a school desk to which his hands are literally nailed with two pencils, is a clear message of violated freedom, relating to an adolescence that suffers the abuses of society."
+      }, {
+        "label" : "Publisher",
+        "value" : "Castello di Rivoli Museo d’Arte Contemporanea"
+      }, {
+        "label" : "Date Created",
+        "value" : "1997"
+      }, {
+        "label" : "Type",
+        "value" : "PhysicalObject"
+      }, {
+        "label" : "Medium",
+        "value" : "latex mannequin; clothes; pencils; desk; chair"
+      }, {
+        "label" : "Format",
+        "value" : "112 x 71 x 70 cm"
+      }, {
+        "label" : "Source",
+        "value" : "https://www.castellodirivoli.org/opera/charlie-dont-surf/"
+      }, {
+        "label" : "Is part Of",
+        "value" : "Strategie 1990"
+      } ]
+    }, {
+      "@id" : "http://ada9c154-83bd-422c-b164-2057fd5238af",
+      "@type" : "sc:Canvas",
+      "label" : "4_Cattelan's Artwork",
+      "height" : 1426,
+      "width" : 1858,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://fdfdd51b-ea0b-47b8-afa6-bed9f4796577",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/novecento.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/novecento.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2649508,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 1426,
+          "width" : 1858
+        },
+        "on" : "http://ada9c154-83bd-422c-b164-2057fd5238af"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Title",
+        "value" : "Novecento"
+      }, {
+        "label" : "Creator",
+        "value" : "Maurizio Cattelan"
+      }, {
+        "label" : "Subject",
+        "value" : "contemporary art; assemblage (sculpture); "
+      }, {
+        "label" : "Description",
+        "value" : "The work consists of a stuffed horse hanging from the ceiling by a harness. The animal's neck is bent towards the ground and the legs, stretched during the taxidermy process, are stretched towards the ground."
+      }, {
+        "label" : "Publisher",
+        "value" : "Castello di Rivoli Museo d’Arte Contemporanea"
+      }, {
+        "label" : "Date Created",
+        "value" : "1997"
+      }, {
+        "label" : "Type",
+        "value" : "PhysicalObject"
+      }, {
+        "label" : "Medium",
+        "value" : "taxidermy horse; leather harness; rope"
+      }, {
+        "label" : "Format",
+        "value" : "200 x 70 x 270 cm"
+      }, {
+        "label" : "Source",
+        "value" : "https://www.castellodirivoli.org/opera/novecento/"
+      }, {
+        "label" : "Is part Of",
+        "value" : "Strategie 1990"
+      } ]
+    }, {
+      "@id" : "http://a0e42062-79b5-4bf5-8b74-35aa918e3b62",
+      "@type" : "sc:Canvas",
+      "label" : "5_Cattelan's Artwork",
+      "height" : 1120,
+      "width" : 2200,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://b88f971f-d8ca-42a6-9b54-ac2b42330b88",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/love.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/love.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2464000,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 1120,
+          "width" : 2200
+        },
+        "on" : "http://a0e42062-79b5-4bf5-8b74-35aa918e3b62"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Title",
+        "value" : "L.O.V.E."
+      }, {
+        "label" : "Creator",
+        "value" : "Maurizio Cattelan"
+      }, {
+        "label" : "Subject",
+        "value" : "contemporary art; architectural sculpture;"
+      }, {
+        "label" : "Description",
+        "value" : "In the center of a square whose buildings welcome the world of Milanese finance, stands an enormous sculpture in Carrara marble depicting a hand with four severed fingers (mockingly, only the middle finger remains), resting on a travertine base: the everything reaches a height of 11 meters. An alienating and surreal image, but also perfectly in harmony with the surrounding architecture. A series of interpretations have flourished over time on this work, from the desire to mock the world of finance at the time in crisis to the allusion to the fascist salute that the hand, once reassembled, would make unequivocally: all inferences never denied or confirmed by the artist, who instead entitled his work with an acronym, also variously readable: L.O.V.E. in fact it stands for Freedom, Hate, Revenge, Eternity."
+      }, {
+        "label" : "Publisher",
+        "value" : "Mudec"
+      }, {
+        "label" : "Date Created",
+        "value" : "2010"
+      }, {
+        "label" : "Type",
+        "value" : "PhysicalObject"
+      }, {
+        "label" : "Format",
+        "value" : "11m; "
+      }, {
+        "label" : "Medium",
+        "value" : "Carrara marble"
+      }, {
+        "label" : "Source",
+        "value" : "https://www.mudec.it/ita/2022/05/10/l-o-v-e/"
+      }, {
+        "label" : "Rights",
+        "value" : "Photo by Andrea Scuratti"
+      }, {
+        "label" : "Coverage",
+        "value" : "Piazza degli Affari, Milano"
+      }, {
+        "label" : "Coverage",
+        "value" : "45°27′53.28″N 9°10′59.77″E﻿ / ﻿45.4648°N 9.18327°E Coordinate: 45°27′53.28″N 9°10′59.77″E﻿ / ﻿45.4648°N 9.18327°E"
+      } ]
+    }, {
+      "@id" : "http://6315f0e4-0087-499f-8d46-609ab226cd74",
+      "@type" : "sc:Canvas",
+      "label" : "6_Cattelan's Artwork",
+      "height" : 768,
+      "width" : 583,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://8c57da20-039d-4597-ac96-e6ad7a7612b6",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/strategie.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/strategie.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 447744,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 768,
+          "width" : 583
+        },
+        "on" : "http://6315f0e4-0087-499f-8d46-609ab226cd74"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Title",
+        "value" : "Strategie"
+      }, {
+        "label" : "Creator",
+        "value" : "Maurizio Cattelan"
+      }, {
+        "label" : "Subject",
+        "value" : "modern art; contemporary art; newspaper clippings;"
+      }, {
+        "label" : "Description",
+        "value" : "Strategies is one of the first works by Maurizio Cattelan and consists of an installation in the shape of a house of cards, where instead of cards there are some issues of the famous art magazine Flash Art. The title, on the one hand, is a reference to the \"strategies\" used within the art market, on the other it represents a declaration of intent, revealing the strategy that Cattelan was implementing at the time, with the aim of self-promotion. In fact, the artist will even have the covers of about a thousand Flash Art numbers replaced with a photo of his own work. In fact, in 1994 a work by Cattelan (Lullaby) will actually make up the cover of Flash Art, and eleven more will follow over the years."
+      }, {
+        "label" : "Publisher",
+        "value" : "MAMbo"
+      }, {
+        "label" : "Date",
+        "value" : "1990"
+      }, {
+        "label" : "Type",
+        "value" : "PhysicalObject"
+      }, {
+        "label" : "Format",
+        "value" : "76,5 x 70 x 21 cm"
+      }, {
+        "label" : "Medium",
+        "value" : "Mixed technique"
+      }, {
+        "label" : "Source",
+        "value" : "http://www.mambo-bologna.org/collezioneonline/collezionecontemporanea/opera-996/"
+      } ]
+    } ]
+  } ],
+  "structures" : [ ]
+}

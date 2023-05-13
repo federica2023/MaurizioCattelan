@@ -1,0 +1,13 @@
+{
+  "id" : "https://federica2023.github.io/MaurizioCattelan/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in federica2023/MaurizioCattelan project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://federica2023.github.io/MaurizioCattelan/manifests/CattelanManifest.json",
+    "label" : "[Click to edit label]"
+  } ]
+}
